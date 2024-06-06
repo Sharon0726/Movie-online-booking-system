@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>現正熱映 - 電影訂票網頁</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <h1><a href='index.html'  style="color:white; text-decoration:none;">電影訂票網頁</a></h1>
+        </div>
+        <div class="header-right">
+            <button onclick="location.href='login.html'">登入/註冊</button>
+            <div class="menu">
+                <img src="menu.png" alt="menu" class="menu-icon">
+                <div class="dropdown-content">
+                    <button onclick="location.href='now_playing.html'">現正熱映</button>
+                    <button onclick="location.href='coming_soon.html'">即將上映</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="section-now-playing">
+            <h2>即將上映</h2>
+            <div class="movie-container">
+                <div class="movie-box">
+                    <img src="m01.jpg" alt="movie5" class="movie-img">
+                    <p class="movie-title">絕地戰警4</p>
+                    <p class="movie-time">上映日期：06/05</p>
+                    <img src="age15.jpg" alt="age_limit" class="age-limit">
+                </div>
+                <div class="movie-box">
+                    <img src="m02.jpg" alt="movie6" class="movie-img">
+                    <p class="movie-title">腦筋急轉彎2</p>
+                    <p class="movie-time">上映時間:06/13</p>
+                    <img src="age0.jpg" alt="age_limit" class="age-limit">
+                </div>
+                <div class="movie-box">
+                    <img src="m03.jpg" alt="movie7" class="movie-img">
+                    <p class="movie-title">名偵探柯南 100萬美元的五稜星</p>
+                    <p class="movie-time">上映時間:06/28</p>
+                    <img src="age0.jpg" alt="age_limit" class="age-limit">
+                </div>
+                <div class="movie-box">
+                    <img src="m04.jpg" alt="movie8" class="movie-img">
+                    <p class="movie-title">神偷奶爸4</p>
+                    <p class="movie-time">上映時間:07/13</p>
+                    <img src="age0.jpg" alt="age_limit" class="age-limit">
+                </div>
+            </div>
+            <div class="movie-container">
+                <div class="movie-box">
+                    <img src="m05.jpg" alt="movie5" class="movie-img">
+                    <p class="movie-title">龍捲風暴</p>
+                    <p class="movie-time">上映日期：07/17</p>
+                    <img src="age0.jpg" alt="age_limit" class="age-limit">
+                </div>
+                <div class="movie-box">
+                    <img src="m06.jpg" alt="movie6" class="movie-img">
+                    <p class="movie-title">死侍與金鋼狼</p>
+                    <p class="movie-time">上映時間:07/24</p>
+                    <img src="age0.jpg" alt="age_limit" class="age-limit">
+                </div>
+                <div class="movie-box">
+                    <img src="m07.jpg" alt="movie6" class="movie-img">
+                    <p class="movie-title">邊緣禁地</p>
+                    <p class="movie-time">上映時間:08/09</p>
+                    <img src="age0.jpg" alt="age_limit" class="age-limit">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>聯絡我們</p>
+        <p>瀏覽人數: <span id="visitor-count">0</span></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

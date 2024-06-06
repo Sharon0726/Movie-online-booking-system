@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>電影訂票網頁</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <h1><a href='index.html'  style="color:white; text-decoration:none;">電影訂票網頁</a></h1>
+        </div>
+        <div class="header-right">
+            <div class="menu">
+                <img src="menu.png" alt="menu" class="menu-icon">
+                <div class="dropdown-content">
+                    <button onclick="location.href='now_playing.html'">現正熱映</button>
+                    <button onclick="location.href='coming_soon.html'">即將上映</button>
+                </div>
+            </div>
+            <button onclick="location.href='login.html'">登入/註冊</button>
+        </div>
+    </header>
+    <main>
+        <section class="section-now-playing">
+            <h2>現正熱映</h2>
+            <div class="movie-container">
+                <div class="movie-box">
+                    <img src="m11.jpg" alt="movie1" class="movie-img">
+                    <p class="movie-title">鬼舞村：詛咒起源</p>
+                    <p class="movie-time">上映時間:05/24</p>
+                    <img src="age12.jpg" alt="age_limit" class="age-limit">
+                </div>
+                <div class="movie-box">
+                    <img src="m12.jpg" alt="movie2" class="movie-img">
+                    <p class="movie-title">《八戒》決戰未來</p>
+                    <p class="movie-time">上映時間:05/31</p>
+                    <img src="age0.jpg" alt="age_limit" class="age-limit">
+                </div>
+                <div class="movie-box">
+                    <img src="m13.jpg" alt="movie3" class="movie-img">
+                    <p class="movie-title">她死了</p>
+                    <p class="movie-time">上映時間:05/31</p>
+                    <img src="age15.jpg" alt="age_limit" class="age-limit">
+                </div>
+                <div class="movie-box">
+                    <img src="m14.jpg" alt="movie4" class="movie-img">
+                    <p class="movie-title">猩球崛起：王國誕生</p>
+                    <p class="movie-time">上映時間:05/08</p>
+                    <img src="age6.jpg" alt="age_limit" class="age-limit">
+                </div>
+            </div>
+            <button class="more-btn" onclick="location.href='now_playing.html'">更多</button>
+        </section>
+        <section class="section-coming-soon">
+            <h2>即將上映</h2>
+            <div class="movie-container">
+                <div class="movie-box">
+                    <img src="m01.jpg" alt="movie5" class="movie-img">
+                    <p class="movie-title">絕地戰警4</p>
+                    <p class="movie-time">上映日期：06/05</p>
+                    <img src="age15.jpg" alt="age_limit" class="age-limit">
+                </div>
+                <div class="movie-box">
+                    <img src="m02.jpg" alt="movie6" class="movie-img">
+                    <p class="movie-title">腦筋急轉彎2</p>
+                    <p class="movie-time">上映時間:06/13</p>
+                    <img src="age0.jpg" alt="age_limit" class="age-limit">
+                </div>
+                <div class="movie-box">
+                    <img src="m03.jpg" alt="movie7" class="movie-img">
+                    <p class="movie-title">名偵探柯南 100萬美元的五稜星</p>
+                    <p class="movie-time">上映時間:06/28</p>
+                    <img src="age0.jpg" alt="age_limit" class="age-limit">
+                </div>
+                <div class="movie-box">
+                    <img src="m04.jpg" alt="movie8" class="movie-img">
+                    <p class="movie-title">神偷奶爸4</p>
+                    <p class="movie-time">上映時間:07/13</p>
+                    <img src="age0.jpg" alt="age_limit" class="age-limit">
+                </div>
+            </div>
+            <button class="more-btn" onclick="location.href='coming_soon.html'">更多</button>
+        </section>
+    </main>
+    <footer>
+        <p>聯絡我們</p>
+        <p>瀏覽人數: <span id="visitor-count">0</span></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
